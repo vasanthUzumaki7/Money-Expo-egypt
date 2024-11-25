@@ -1,0 +1,288 @@
+.speaker-crd .spkr-img img{
+    width: 115px;
+    height: 115px;
+}
+.speaker-crd{
+    max-width: 230px;
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid #c8f2f347;
+    margin: 30px 10px 0px;
+    background: radial-gradient(circle, rgba(159, 112, 5, 1) -10%, rgba(0, 0, 0, 1) 83%);
+    clip-path: polygon(9% 0%, -100% 100%, 90% 101%, 228% 0%, 0% 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.speaker-crd h3{
+    font-size: 18px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.speaker-crd p{
+    font-size: 14px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.spkr-left{
+    position: sticky;
+    top: 200px;
+}
+.content-8{
+    padding: 50px 0px;
+    background-color: goldenrod;
+}
+
+.content-8 .container{
+    max-width: 1200px !important;
+}
+.spkr-left h1{
+   color: var(--yellow);
+}
+.spkr-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* slick */
+ .cont9-right .slick-prev:before {
+    content: '';
+    background: url(	https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Spkr-RightArrow.svg);
+    transform: rotate(45deg);
+    opacity: 1 !important;
+}
+
+.cont9-right .slick-next:before {
+    content: '';
+    background: url(https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Spkr-RightArrow.svg);
+    transform: rotate(-135deg);
+    opacity: 1 !important;
+}
+.cont9-right .slick-prev:before,.cont9-right .slick-next:before {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* slick dots */
+.slick-dots li button {
+    width: 30px !important;
+    height: 5px !important;
+    padding: 5px;
+    background: transparent;
+}
+.slick-dots li button:before {
+  
+    width: 30px !important;
+    height: 5px !important;
+    content: '' !important;
+    background-color: var(--yellow) !important;
+    border-radius: 10px;
+    
+}
+.slick-dots li {
+   margin: 0 !important;
+    width: 40px !important;
+    height: 8px !important;
+   
+}
+.Partner-dots{
+    display: block;
+}
+
+.cont9-inner-div{
+    display: flex;
+}
+.content-10{
+    padding: 50px 0px;
+    background-color: black;
+}
+.content-spkr{
+    padding: 50px 0px;
+    background-color: black;
+}
+
+/* flip-courouse */
+.flip-lay{
+    display: flex;
+    justify-content: center;
+}
+.content-spkr .container {
+    max-width: 1200px;
+}
+
+
+
+
+/* speaker popup */
+.spkr-sp-crd {
+    display: flex
+;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.crd-toggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup-dtail {
+    height: 145px;
+    overflow-y: scroll;
+}
+.spkr-sp-crd div:nth-child(1) {
+    max-height: 180px;
+    max-width: 180px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.spkr-sp-crd .spkr-card-title h3{
+    margin: 0;
+}
+.spkr-sp-crd .spkr-card-title p{
+    margin: 0;
+}
+.spkr-sp-crd img {
+    width: 100%;
+    height: 100%;
+}
+.spkr-tag {
+    position: absolute;
+    top: 25px;
+    left: -15px;
+    background-color: var(--red);
+    color: white;
+    padding: 0px 5px;
+}
+
+
+.modal-content{
+    background: linear-gradient(to bottom,black,rgb(0, 84, 48)) !important;
+}
+
+/* scroll thump */
+.popup-dtail::-webkit-scrollbar {
+    width: 6px;
+}
+
+.popup-dtail::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    min-height: 50px;
+    height: 60px;
+}
+.popup-dtail::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+}
+
+body.modal-open {
+    overflow-y: auto !important;
+  }
+@media (min-width: 1200px) {
+   .content-spkr .container {
+        max-width: 1300px;
+    }
+}
+@media (min-width: 1100px) {
+    .cont9-right{
+        padding: 0;
+    }
+ }
+@media screen and (max-width:992px) {
+    
+    .spkr-lay{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-9 .slick-changes{
+        position: relative;
+    }
+    .content-10 .Partner-dots{
+        position: absolute;
+        bottom: -320px;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+    }
+    .cont10-right{
+        padding: 0 !important;
+    }
+    .Speaker-dots{
+        position: absolute;
+        bottom: -740px;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+    }
+
+    .spkr-sp-crd .spkr-card-title h3{
+      
+        font-size: 15px;
+    }
+    .spkr-sp-crd .spkr-card-title p{
+
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:552px){
+    .cont9-right .slick-prev:before,.cont9-right .slick-next:before {
+        width: 100%;
+        height: 100%;
+        display: none !important;
+    }
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+    .cont9-right{
+        padding: 0;
+    }
+
+
+
+    .spkr-sp-crd .spkr-card-title h3{
+      
+        font-size: 11px;
+    }
+    .spkr-sp-crd .spkr-card-title p{
+      
+        font-size: 10px;
+    }
+
+    .spkr-tag {
+        top: 22px;
+        left: -25px;
+        font-size: 10px;
+    }
+    .spkr-sp-crd div:nth-child(1) {
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .popup-dtail{
+        font-size: 12px;
+    }
+}

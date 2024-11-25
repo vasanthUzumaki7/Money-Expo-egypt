@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vasanth</title>
+    <!-- Title icon -->
+    <link
+      rel="icon"
+      href="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Favicons/MoneyExpo.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.cdnfonts.com/css/big-john" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style1.css" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="stylesheet" href="./style4.css" />
+    <link rel="stylesheet" href="./style5.css" />
+    <link rel="stylesheet" href="./style6.css" />
+    <link rel="stylesheet" href="./sidebar.css" />
+
+    <link rel="stylesheet" href="./js/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./slick-combine/slick-theme.css" />
+    <link rel="stylesheet" href="./slick-combine/slick.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <style>
+      .mysticker {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        perspective: 1000px;
+
+        border-radius: 10px;
+        /* Adds depth to the 3D effect */
+      }
+
+      .sticker-inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        /* Ensures the 3D effect works correctly */
+        transform-origin: center;
+        transition: transform 0.6s ease-in-out;
+        border: 0.5px solid grey;
+        border-radius: 10px;
+        /* Smooth flipping animation */
+      }
+
+      .mysticker:hover .sticker-inner {
+        transform: rotateY(180deg);
+        /* Rotates 180 degrees on hover */
+      }
+
+      .st-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        /* Ensures only the front face is visible at a time */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: 0.6s;
+      }
+
+      .st-face img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .mysticker {
+        height: 130px;
+        width: 130px;
+      }
+
+      .st-back {
+        transform: rotateY(180deg);
+        /* Back rotated by 180 degrees */
+        background-color: black;
+        color: white;
+        font-size: 15px;
+      }
+      .st-back h4 {
+        text-transform: uppercase;
+        font-family: "Avenir";
+        margin: 0;
+        font-size: 16px;
+      }
+      .st-back p {
+        margin: 0;
+      }
+
+      .st-back button {
+        padding: 5px;
+        width: 100px;
+        background-color: var(--yellow);
+        color: white;
+        border-radius: 5px;
+        border: none;
+      }
+
+      .st-back button:hover {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1px var(--yellow);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="s-bar-list animated bounceIn">
+      <li class="animated fadeIn" style="animation-delay: 1s;">
+        <a href=""
+          ><img
+            src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SideBar/SideBar-Whatsapp.png"
+            alt=""
+          />
+          <div style="background-color: rgb(38, 191, 74)" class="social-m">
+            <p>whatsapp</p>
+          </div>
+        </a>
+      </li>
+      <li class="animated fadeIn" style="animation-delay: 1.25s;">
+        <a href=""
+          ><img
+            src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SideBar/SideBar-Telegram.png"
+            alt=""
+          />
+          <div style="background-color: rgb(42, 162, 222)" class="social-m">
+            <p>whatsapp</p>
+          </div>
+        </a>
+      </li>
+      <li class="animated fadeIn" style="animation-delay: 1.5s;">
+        <a href=""
+          ><img
+            src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SideBar/SideBar-Mail.png"
+            alt=""
+          />
+          <div style="background-color: rgb(255, 0, 0)" class="social-m">
+            <p>whatsapp</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <div class="bottom-bar-container wow fadeInUp" data-wow-delay="0.5s">
+      <div class="container">
+        <div class="bottom-bar">
+          <div><h2>Event Completed</h2></div>
+          <div class="timer">
+            <div>
+              <p class="terminal">000</p>
+              <span>Days :</span>
+            </div>
+            <div>
+              <p class="terminal">00</p>
+              <span>Hours :</span>
+            </div>
+            <div>
+              <p class="terminal">00</p>
+              <span>Minutes :</span>
+            </div>
+            <div>
+              <p class="terminal">00</p>
+              <span>Seconds</span>
+            </div>
+          </div>
+          <div><button class="Header-btn2">Register Now</button></div>
+        </div>
+      </div>
+      <a
+        href="javascript:void(0)"
+        onclick="scrollToTop()"
+        class="scroll1"
+        id="scroll"
+        ><button class="cntrl-btn"><i class="fa-solid fa-arrow-up"></i></button
+      ></a>
+    </div>
+    <div class="reminder-div" id="reminder">
+      <div class="container rem-div">
+        <div class="rem-div1">
+          <p><span>Address:</span> Royal palace Empinki,Egypt</p>
+          <p>
+            <span>Date & Time :</span> 18 - 19 June, 2025 10:00 AM - 6:00 PM
+          </p>
+        </div>
+        <ul class="rem-div2">
+          <li><span class="fab fa-facebook-f"></span></li>
+          <li><span class="fab fa-instagram"></span></li>
+          <li><span class="fa-brands fa-x-twitter"></span></li>
+          <li><span class="fab fa-linkedin"></span></li>
+        </ul>
+      </div>
+    </div>
+    <header id="header" class="nav-bar">
+      <div class="container">
+        <div class="header-inner">
+          <a href="#">
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Logo/Egypt-White.png"
+              alt=""
+            />
+          </a>
+          <ul class="win-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sponcers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li>
+              <button href="#" class="Header-btn1">Become Sponcer</button>
+            </li>
+            <li>
+              <button href="#" class="Header-btn2">Register now</button>
+            </li>
+          </ul>
+          <div class="nav-ovrl"></div>
+          <div class="mobile-nav">
+            
+            <a href="#">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Logo/Egypt-White.png"
+                alt=""
+              />
+            </a>
+            <ul class="mobile-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Sponcers</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li style="border: none">
+                <button class="Header-btn1">Become Sponcer</button>
+              </li>
+              <li style="border: none">
+                <button class="Header-btn2">Register now</button>
+              </li>
+            </ul>
+            
+          </div>
+
+          <div class="nav-toggle">
+            <div class="nav-b">
+              <div class="n-div1"></div>
+              <div class="n-div2"></div>
+              <div class="n-div3"></div>
+              <div class="n-div4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-1">
+      <div class="content-cont">
+        <div class="container">
+          <div class="banner-contnt col-12">
+            <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+              Join Largest Online Trading and
+            </h4>
+            <h1 class="wow fadeInUp" data-wow-delay="0.3s">
+              Fintech Expo in Egypt
+            </h1>
+            <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+              18 - 19 June, 2025, Royal Palace Kempinski, Egypt
+            </h3>
+            <div class="wow fadeInUp" data-wow-delay="0.5s">
+              <button style="margin-right: 10px;" href="#" class="Header-btn1">Become Sponcer</button>
+              <button style="margin-left: 10px;" href="#" class="Header-btn2">Register now</button>
+            </div>
+          </div>
+          <div class="banner-img">
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Banners/Banner-Booth.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row counter text-white">
+          <div class="col-3 count">
+            <h1 class="counting" data-target="3000">0</h1>
+            <p>Attendees</p>
+          </div>
+          <div class="col-3 count">
+            <h1 class="counting" data-target="150">0</h1>
+            <p>Investors</p>
+          </div>
+          <div class="col-3 count">
+            <h1 class="counting" data-target="30">0</h1>
+            <p>Speakers</p>
+          </div>
+          <div class="col-3 count">
+            <h1 class="counting" data-target="10">0</h1>
+            <p>Countries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-2">
+      <div class="container d-flex justify-content-center align-content-center">
+        <div class="col-lg-8 con2-top wow fadeInUp" data-wow-delay="0.3s">
+          <h1 class="text-center">WHO WE ARE</h1>
+          <p class="text-center text-white">
+            Money Expo Egypt 2025, a premier gathering uniting Banking, Wealth
+            Management, Payment Gateways, Traders, Introducing Brokers,
+            Investors, Financial Institutions, and Brokers within the dynamic
+            Trading and Investing Community. Our event serves as a pivotal
+            platform where professionals come together to foster connections,
+            establish meaningful relationships, and stay abreast of the latest
+            market trends and financial insights. The event not only provides a
+            unique networking opportunity but also facilitates interactions with
+            industry-leading service providers, fostering the enhancement of
+            skills, knowledge, and investment strategies
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="con2-cards row justify-content-center">
+          <div class="c2-card col-md-6 col-xl-4 wow fadeInRight" data-wow-delay="0.7s">
+            <div class="c2-card-left" style="border: 5px solid var(--green)">
+              <img
+                class="left-img"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe1.png              "
+                alt=""
+              />
+              <div class="whowe-img">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe-Green.svg
+                "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="c2-card-right col"
+              style="border: 5px solid var(--green)"
+            >
+              <h1>Exibition</h1>
+              <p>
+                Discover the ultimate online trading event, featuring the
+                world's leading Money Expo Egypt, where top products and
+                services are showcased all under one roof.
+              </p>
+            </div>
+          </div>
+          <div class="c2-card col-md-6 col-xl-4 wow fadeInRight" data-wow-delay="0.5s">
+            <div class="c2-card-left" style="border: 5px solid var(--pink)">
+              <img
+                class="left-img"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe2.png"
+                alt=""
+              />
+              <div class="whowe-img">
+                <img
+                  src="	https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe-Red.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="c2-card-right col"
+              style="border: 5px solid var(--pink)"
+            >
+              <h1>Conference</h1>
+              <p>
+                Acquire valuable insights into the financial industry, US
+                stocks, commodities, metals, and other online trading products
+                from our distinguished lineup of speakers and industry experts.
+              </p>
+            </div>
+          </div>
+          <div class="c2-card col-md-6 col-xl-4 wow fadeInRight" data-wow-delay="0.3s">
+            <div class="c2-card-left" style="border: 5px solid var(--yellow)">
+              <img
+                class="left-img"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe3.png"
+                alt=""
+              />
+              <div class="whowe-img">
+                <img
+                  src="	https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Who-We-Are/Whowe-yellow.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="c2-card-right col"
+              style="border: 5px solid var(--yellow)"
+            >
+              <h1>Awards</h1>
+              <p>
+                Explore the dedicated award ceremony designed to express
+                gratitude to our exhibitors and celebrate their outstanding
+                success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid"
+      style="
+        background-color: var(--green);
+        padding: 0px 20px;
+        z-index: 8;
+        position: relative;
+        padding-bottom: 1.5rem;
+      "
+    >
+      <div class="row cont-3" style="box-sizing: border-box">
+        <div class="col-lg-4 mt-4 wow fadeInRight" data-wow-delay="0.4s">
+          <div class="con3-cont">
+            <h1>What is Money Expo Egypt?</h1>
+          </div>
+        </div>
+        <div class="col-lg-8 mt-4 wow fadeInLeft" data-wow-delay="0.5s">
+          <div class="con3-cont-r">
+            <p class="text-white">
+              The premier financial event in Doha, Egypt, ignites a dynamic
+              convergence of traditional finance and cutting-edge technology.
+              This must-attend event connects industry leaders, innovators, and
+              investors shaping the future of finance in Egypt. Dive deep into
+              the world of Fintech, exploring the latest trends in online
+              trading platforms, digital payments, blockchain technology, and
+              wealth management solutions.
+            </p>
+            <p class="text-white">
+              Network with established financial institutions, rising Fintech
+              startups, and online trading experts, all under one roof. Money
+              Expo Egypt empowers you to expand your reach, elevate your brand,
+              and drive business growth in the ever-evolving Egypt financial
+              landscape.
+            </p>
+          </div>
+        </div>
+        <div class="ovrl-img wow fadeIn" data-wow-delay="0.5s">
+          <img
+            src="	https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/WhyAbout-Section/WhyAbout-CenterBg.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="content-4 d-flex justify-content-center pb-5"
+      style="z-index: 9; padding-top: 6rem; position: relative"
+    >
+      <div class="container row">
+        <div class="section-title">
+          <h1 class="text-white">Attendees</h1>
+        </div>
+        <div class="p-2 my-3 col-xl-6 order-xl-1 order-lg-2 order-md-2 order-2">
+          <div class="chart-item my-2">
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart1.png"
+                alt=""
+              />
+              <p>Investors</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart2.png"
+                alt=""
+              />
+              <p>Cypto Brokers</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart3.png"
+                alt=""
+              />
+              <p>Enterprenius</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart4.png"
+                alt=""
+              />
+              <p>Service Provider</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart5.png"
+                alt=""
+              />
+              <p>Start-ups</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart6.png"
+                alt=""
+              />
+              <p>Developers</p>
+            </div>
+            <div class="chart-img">
+              <img
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Chart7.png"
+                alt=""
+              />
+              <p>Others</p>
+            </div>
+          </div>
+
+          <div class="my-2">
+            <h3 class="text-white my-4">Top 10 Countries Attendees</h3>
+            <div class="chart-flag">
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag1.png"
+                  alt=""
+                />
+                <p>UAE</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag2.png"
+                  alt=""
+                />
+                <p>RUSSIA</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag3.png"
+                  alt=""
+                />
+                <p>USA</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag4.png"
+                  alt=""
+                />
+                <p>GERMANY</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag5.png"
+                  alt=""
+                />
+                <p>UK</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag6.png"
+                  alt=""
+                />
+                <p>INDIA</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag7.png"
+                  alt=""
+                />
+                <p>CHINA</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag8.png"
+                  alt=""
+                />
+                <p>CANADA</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag9.png"
+                  alt=""
+                />
+                <p>FRANCE</p>
+              </div>
+              <div class="flag-div">
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Flag10.png"
+                  alt=""
+                />
+                <p>ISRAEL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 my-2 col-xl-6 order-xl-2 order-lg-1 order-md-1 order-1">
+          <div class="map my-3">
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/World-Map.png"
+              alt=""
+            />
+          </div>
+          <div class="my-3">
+            <div class="progress-div">
+              <p class="col-3">Founder C Level</p>
+              <img
+                class="col-7"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Progress-Item1.png"
+                alt=""
+              />
+              <p class="col-2">70%</p>
+            </div>
+            <div class="progress-div">
+              <p class="col-3">Mid Level Level</p>
+              <img
+                class="col-7"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Progress-Item2.png"
+                alt=""
+              />
+              <p class="col-2">30%</p>
+            </div>
+            <div class="progress-div">
+              <p class="col-3">Others</p>
+              <img
+                class="col-7"
+                src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Maps/Progress-Item3.png"
+                alt=""
+              />
+              <p class="col-2">6%</p>
+            </div>
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+    </div>
+
+    <div class="content-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 cont5-left d-flex flex-column justify-content-center"
+          >
+            <h1 class="text-start text-white mb-3">Why to Exhibit?</h1>
+            <p class="text-white">
+              Exhibiting at the Money Expo Egypt provides the opportunity to
+              connect with over 5,000 attendees, including financial brokers,
+              investors, traders, IBs, affiliates, and B2B technology providers
+              who are driving the market.
+            </p>
+            <ul class="about-list">
+              <li>
+                This is a chance to showcase your company’s products and
+                services
+              </li>
+              <li>Meet potential clients and investors in-person</li>
+              <li>Receive recognition for your achievements</li>
+              <li>
+                Reach a broad audience from across the Financial Industry.
+              </li>
+            </ul>
+            <button class="Header-btn1">Become Sponcer</button>
+          </div>
+          <div class="col-lg-6 cont5-right">
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/About-Section/Home-Aboutimg_Right.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-6">
+      <div class="container">
+        <h1 class="text-white my-5">Visit, Learn & Invest</h1>
+        <div class="fundcards row">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  239deg,
+                  rgba(4, 208, 217, 0) 3.27%,
+                  rgb(0, 84, 48) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Stock.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Stock Market</h3>
+                  <p>
+                    Visit and explore current trends in Stock Market with
+                    Industry Experts and become a pro in Art of Trading.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  139deg,
+                  rgba(4, 208, 217, 0) 3.27%,
+                  rgb(140, 29, 44) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Payment.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Payment Gateway</h3>
+                  <p>
+                    Discover the latest advancements in payment gateways at
+                    Money Expo Qatar. Explore innovative solutions for
+                    businesses and consumers alike.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  309deg,
+                  rgba(4, 208, 217, 0) 3.27%,
+                  rgb(156, 110, 5) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Bank.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Banks&Fintech</h3>
+                  <p>
+                    Experience the forefront of financial technology at Money
+                    Expo India. Explore revolutionizing banking, payments,
+                    lending, and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  139deg,
+                  rgba(4, 208, 217, 0) 3.27%,
+                  rgb(140, 29, 44) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Mutual.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Mutual Funds&ETF</h3>
+                  <p>
+                    The largest gathering of Investment firms which allows you
+                    to understand different investment options in Mutual Funds
+                    and Bonds.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  309deg,
+                  rgba(4, 208, 217, 0) 3.27%,
+                  rgb(156, 110, 5) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Trading.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Online Trading</h3>
+                  <p>
+                    Visit and explore current trends in Stock Market with
+                    Industry Experts and become a pro in Art of Trading.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+            <div
+              class="f-crds"
+              style="
+                background: linear-gradient(
+                  239deg,
+                  rgba(4, 208, 217, 0) 9.27%,
+                  rgb(0, 84, 48) 70.77%
+                );
+              "
+            >
+              <div class="f-crd-layer">
+                <div class="f-crd-img">
+                  <img
+                    src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Fund-Section/Invest.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3>Financial Investments</h3>
+                  <p>
+                    The largest gathering of Investment firms which allows you
+                    to understand different investment options in Mutual Funds
+                    and Bonds.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content-7 -->
+    <div
+      class="content-5 py-5"
+      style="
+        background: linear-gradient(
+          to bottom,
+          black,
+          rgb(0, 48, 27),
+          rgb(0, 48, 27),
+          black
+        );
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 cont5-right">
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/About-Section/Home-Aboutimg_Left.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-6 cont5-left d-flex flex-column justify-content-center"
+          >
+            <h1 class="text-start text-white mb-3">Why to Attend?</h1>
+            <p class="text-white">
+              The Money Expo Egypt provides a valuable opportunity to connect
+              with financial brokers, investors, traders, IBs, affiliates, and
+              B2B technology providers who are leaders in the market.
+            </p>
+            <p class="text-white">
+              Attendees will gain valuable insights into the latest developments
+              in the Fintech industry, network with experts and investors, stay
+              up-to-date on industry trends, and engage with top market leaders.
+            </p>
+            <button class="Header-btn1">Become Sponcer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content-8 -->
+
+    <div class="content-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-xl-4 col-md-12">
+            <div class="cont9-left spkr-left" style="margin-top: 30px">
+              <h1 style="color: black">our speakers</h1>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xl-8 col-md-12">
+            <div class="cont9-right" style="margin-top: 30px">
+              <div class="cont9-c-container">
+                <div class="sponcer-title">
+                  <span class="sponcer-line"></span>
+                  <h1>Titanium</h1>
+                  <span class="sponcer-line"></span>
+                </div>
+                <div
+                  class="cont9-cards d-flex justify-content-center gap-3 flex-wrap my-5"
+                >
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cont9-c-container">
+                <div class="sponcer-title">
+                  <span class="sponcer-line"></span>
+                  <h1>Titanium</h1>
+                  <span class="sponcer-line"></span>
+                </div>
+                <div
+                  class="cont9-cards d-flex justify-content-center gap-3 flex-wrap my-5"
+                >
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cont9-c-container">
+                <div class="sponcer-title">
+                  <span class="sponcer-line"></span>
+                  <h1>Titanium</h1>
+                  <span class="sponcer-line"></span>
+                </div>
+                <div
+                  class="cont9-cards d-flex justify-content-center flex-wrap my-5 gap-4"
+                >
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cont9-c-container">
+                <div class="sponcer-title">
+                  <span class="sponcer-line"></span>
+                  <h1>Titanium</h1>
+                  <span class="sponcer-line"></span>
+                </div>
+                <div
+                  class="cont9-cards d-flex justify-content-center gap-3 flex-wrap my-5"
+                >
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysticker">
+                    <div class="sticker-inner">
+                      <div class="st-front st-face">
+                        <img
+                          src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="st-back st-face">
+                        <h4>Capex.com</h4>
+                        <p>Our Company</p>
+                        <button>View Profile</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center align-content-between">
+                <button class="Header-btn2">View All Sponcers</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content10 -->
+    <div class="content-10">
+      <div class="container">
+        <div class="row slick-changes">
+          <div class="col-lg-4 col-xl-4 col-md-12">
+            <div class="cont9-left spkr-left" style="margin: 40px 0px">
+              <h1>our sponcers</h1>
+              <div class="Partner-dots"></div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xl-8 col-md-12">
+            <div class="cont9-right">
+              <div class="flipping-cards">
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flip-lay">
+                    <div class="mysticker">
+                      <div class="sticker-inner">
+                        <div class="st-front st-face">
+                          <img
+                            src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="st-back st-face">
+                          <h4>Capex.com</h4>
+                          <p>Our Company</p>
+                          <button>View Profile</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="Partner-dots2"></div>
+              <div
+                class="d-flex justify-content-center align-content-between"
+                style="margin-top: 40px"
+              >
+                <button class="Header-btn2">View All Sponcers</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- spaeker popup card-->
+    <div class="content-spkr">
+      <div class="container">
+        <div class="row slick-changes">
+          <div class="col-lg-4 col-xl-4 col-md-12">
+            <div class="cont9-left spkr-left" style="margin: 40px 0px">
+              <h1>our speakers</h1>
+              <div class="Speaker-dots"></div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xl-8 col-md-12">
+            <div class="cont9-right cont10-right">
+              <div class="speakers-card">
+                <div>
+                  <div
+                    class="spkr-lay"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal1"
+                  >
+                    <div class="speaker-crd">
+                      <div class="spkr-img">
+                        <img
+                          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Roberto-Ambrosio.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3>Roberto d'Ambrosio</h3>
+                        <p>CEO</p>
+                        <p>Axiory</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="spkr-lay"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal2"
+                  >
+                    <div class="speaker-crd">
+                      <div class="spkr-img">
+                        <img
+                          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3>Roberto d'Ambrosio</h3>
+                        <p>CEO</p>
+                        <p>Axiory</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="spkr-lay"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal3"
+                  >
+                    <div class="speaker-crd">
+                      <div class="spkr-img">
+                        <img
+                          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Danny-Salman.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3>Roberto d'Ambrosio</h3>
+                        <p>CEO</p>
+                        <p>Axiory</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="spkr-lay"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal4"
+                  >
+                    <div class="speaker-crd">
+                      <div class="spkr-img">
+                        <img
+                          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image//Speakers/James-Perry-Keene.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3>Roberto d'Ambrosio</h3>
+                        <p>CEO</p>
+                        <p>Axiory</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="spkr-lay"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal5"
+                  >
+                    <div class="speaker-crd">
+                      <div class="spkr-img">
+                        <img
+                          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Peter-Karsten.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h3>Roberto d'Ambrosio</h3>
+                        <p>CEO</p>
+                        <p>Axiory</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-content-between"
+                style="margin-top: 40px"
+              >
+                <button class="Header-btn2">View All Sponcers</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- speaker popup -->
+    <div class="modal fade" id="myModal1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div
+          class="modal-content"
+          style="border-radius: 30px; padding: 10px; border: none !important"
+        >
+          <div class="modal-body">
+            <div class="spkr-sp-crd">
+              <div>
+                <img
+                  src="https://theforexexpo.com/wp-content/uploads/2024/08/Alan-Ali.png"
+                  alt=""
+                />
+                <p class="spkr-tag">Speaker</p>
+              </div>
+              <div class="spkr-card-title text-white">
+                <h3>Ali Sharifazadeh</h3>
+                <p>Chief Market Analyst</p>
+                <p>Pipwise</p>
+              </div>
+            </div>
+            <div class="crd-toggle">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <p class="popup-dtail text-white">
+              My name is Alan Ali, a seasoned professional with over six years
+              of experience in the financial industry... Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Reiciendis soluta ipsam
+              cupiditate facere magnam facilis quia itaque adipisci explicabo
+              aperiam ducimus iste nam possimus, praesentium voluptatem iure
+              officia quidem neque fugit non aspernatur deserunt! A earum iusto
+              eius id quidem suscipit consequatur ut aliquam! Quis ullam
+              adipisci quam mollitia deleniti rem et eaque provident culpa
+              fugit? Dolore perspiciatis eum labore iste, molestias enim ut
+              totam id, ea libero explicabo veniam doloremque aliquam suscipit
+              assumenda rerum error eligendi ducimus distinctio similique.
+              Laboriosam suscipit dolorum aperiam doloremque enim nostrum fugit
+              eum dignissimos unde veritatis. Aliquam dolorum qui ullam, fuga
+              magnam nesciunt sed!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal2">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div
+          class="modal-content"
+          style="border-radius: 30px; padding: 10px; border: none !important"
+        >
+          <div class="modal-body">
+            <div class="spkr-sp-crd">
+              <div>
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+                  alt=""
+                />
+                <p class="spkr-tag">Speaker</p>
+              </div>
+              <div class="spkr-card-title text-white">
+                <h3>Ali Sharifazadeh</h3>
+                <p>Chief Market Analyst</p>
+                <p>Pipwise</p>
+              </div>
+            </div>
+            <div class="crd-toggle">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <p class="popup-dtail text-white">
+              My name is Alan Ali, a seasoned professional with over six years
+              of experience in the financial industry... Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Reiciendis soluta ipsam
+              cupiditate facere magnam facilis quia itaque adipisci explicabo
+              aperiam ducimus iste nam possimus, praesentium voluptatem iure
+              officia quidem neque fugit non aspernatur deserunt! A earum iusto
+              eius id quidem suscipit consequatur ut aliquam! Quis ullam
+              adipisci quam mollitia deleniti rem et eaque provident culpa
+              fugit? Dolore perspiciatis eum labore iste, molestias enim ut
+              totam id, ea libero explicabo veniam doloremque aliquam suscipit
+              assumenda rerum error eligendi ducimus distinctio similique.
+              Laboriosam suscipit dolorum aperiam doloremque enim nostrum fugit
+              eum dignissimos unde veritatis. Aliquam dolorum qui ullam, fuga
+              magnam nesciunt sed!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal3">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div
+          class="modal-content"
+          style="border-radius: 30px; padding: 10px; border: none !important"
+        >
+          <div class="modal-body">
+            <div class="spkr-sp-crd">
+              <div>
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Danny-Salman.png"
+                  alt=""
+                />
+                <p class="spkr-tag">Speaker</p>
+              </div>
+              <div class="spkr-card-title text-white">
+                <h3>Ali Sharifazadeh</h3>
+                <p>Chief Market Analyst</p>
+                <p>Pipwise</p>
+              </div>
+            </div>
+            <div class="crd-toggle">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <p class="popup-dtail text-white">
+              My name is Alan Ali, a seasoned professional with over six years
+              of experience in the financial industry... Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Reiciendis soluta ipsam
+              cupiditate facere magnam facilis quia itaque adipisci explicabo
+              aperiam ducimus iste nam possimus, praesentium voluptatem iure
+              officia quidem neque fugit non aspernatur deserunt! A earum iusto
+              eius id quidem suscipit consequatur ut aliquam! Quis ullam
+              adipisci quam mollitia deleniti rem et eaque provident culpa
+              fugit? Dolore perspiciatis eum labore iste, molestias enim ut
+              totam id, ea libero explicabo veniam doloremque aliquam suscipit
+              assumenda rerum error eligendi ducimus distinctio similique.
+              Laboriosam suscipit dolorum aperiam doloremque enim nostrum fugit
+              eum dignissimos unde veritatis. Aliquam dolorum qui ullam, fuga
+              magnam nesciunt sed!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal4">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div
+          class="modal-content"
+          style="border-radius: 30px; padding: 10px; border: none !important"
+        >
+          <div class="modal-body">
+            <div class="spkr-sp-crd">
+              <div>
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image//Speakers/James-Perry-Keene.png"
+                  alt=""
+                />
+                <p class="spkr-tag">Speaker</p>
+              </div>
+              <div class="spkr-card-title text-white">
+                <h3>Ali Sharifazadeh</h3>
+                <p>Chief Market Analyst</p>
+                <p>Pipwise</p>
+              </div>
+            </div>
+            <div class="crd-toggle">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <p class="popup-dtail text-white">
+              My name is Alan Ali, a seasoned professional with over six years
+              of experience in the financial industry... Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Reiciendis soluta ipsam
+              cupiditate facere magnam facilis quia itaque adipisci explicabo
+              aperiam ducimus iste nam possimus, praesentium voluptatem iure
+              officia quidem neque fugit non aspernatur deserunt! A earum iusto
+              eius id quidem suscipit consequatur ut aliquam! Quis ullam
+              adipisci quam mollitia deleniti rem et eaque provident culpa
+              fugit? Dolore perspiciatis eum labore iste, molestias enim ut
+              totam id, ea libero explicabo veniam doloremque aliquam suscipit
+              assumenda rerum error eligendi ducimus distinctio similique.
+              Laboriosam suscipit dolorum aperiam doloremque enim nostrum fugit
+              eum dignissimos unde veritatis. Aliquam dolorum qui ullam, fuga
+              magnam nesciunt sed!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal5">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div
+          class="modal-content"
+          style="border-radius: 30px; padding: 10px; border: none !important"
+        >
+          <div class="modal-body">
+            <div class="spkr-sp-crd">
+              <div>
+                <img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Peter-Karsten.png"
+                  alt=""
+                />
+                <p class="spkr-tag">Speaker</p>
+              </div>
+              <div class="spkr-card-title text-white">
+                <h3>Ali Sharifazadeh</h3>
+                <p>Chief Market Analyst</p>
+                <p>Pipwise</p>
+              </div>
+            </div>
+            <div class="crd-toggle">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <p class="popup-dtail text-white">
+              My name is Alan Ali, a seasoned professional with over six years
+              of experience in the financial industry... Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Reiciendis soluta ipsam
+              cupiditate facere magnam facilis quia itaque adipisci explicabo
+              aperiam ducimus iste nam possimus, praesentium voluptatem iure
+              officia quidem neque fugit non aspernatur deserunt! A earum iusto
+              eius id quidem suscipit consequatur ut aliquam! Quis ullam
+              adipisci quam mollitia deleniti rem et eaque provident culpa
+              fugit? Dolore perspiciatis eum labore iste, molestias enim ut
+              totam id, ea libero explicabo veniam doloremque aliquam suscipit
+              assumenda rerum error eligendi ducimus distinctio similique.
+              Laboriosam suscipit dolorum aperiam doloremque enim nostrum fugit
+              eum dignissimos unde veritatis. Aliquam dolorum qui ullam, fuga
+              magnam nesciunt sed!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popup end -->
+
+    <div class="content-11">
+      <div class="container">
+        <div class="cont-11">
+          <h1 class="text-white">The Venue</h1>
+          <h2>Royal Palace Kempinski, Egypt</h2>
+          <button
+            class="Header-btn1"
+            style="background-color: var(--red); box-shadow: 0 0 5px black"
+          >
+            View in Maps
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-12">
+      <div class="container">
+        <div>
+          <h1>contact our team</h1>
+          <p class="text-center">
+            Our team is Committed to provide prompt and reliable assistance to
+            our clients, and strive to be responsive to their needs
+          </p>
+        </div>
+        <div class="twelve-cards-list">
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div class="twelve-card">
+            <img
+              class="profile-icon"
+              src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+              alt=""
+            />
+
+            <p class="tw-name">Imane</p>
+            <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+            <p class="w-t">
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+                alt=""
+              />
+              <img
+                src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+                alt=""
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-img">
+      <img
+        src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Venue-Section/Venue-img.png"
+        alt=""
+      />
+    </div>
+
+    <footer class="content-13">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-l">
+            <h4>Organised By</h4>
+            <img
+              src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Logo/Footer-Logo.png"
+              alt=""
+            />
+          </div>
+          <div class="footer-top-r">
+            <p>18+ Only</p>
+            <div class="media-cont">
+              <a href=""
+                ><img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Ftr-instagram.svg"
+                  alt="" /></a
+              ><a href=""
+                ><img
+                  src="	https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Ftr-twitter.svg
+              "
+                  alt="" /></a
+              ><a href=""
+                ><img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Ftr-linkedin.svg"
+                  alt="" /></a
+              ><a href=""
+                ><img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Ftr-facebook.svg"
+                  alt=""
+              /></a>
+              <a href=""
+                ><img
+                  src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/SVGs/Ftr-youtube.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-dvdr"></div>
+        <div class="footer-top">
+          <p>Venue : Royal Palace Kempinski, Egypt</p>
+          <p>Time and Date : 18 - 19 June, 2025 10:00 AM - 6:00 PM</p>
+          <p>Mail : <a href="">info@moneyexpoglobal.com</a></p>
+        </div>
+        <div class="footer-top footer-b">
+          <p>Copyright © 2024 Money Expo Egypt. All Rights Reserved</p>
+          <div>
+            <a href="">Terms and condition</a>
+            <a href="">Privacy Policy</a>
+          </div>
+        </div>
+        <p class="text-white" style="font-size: 13.5px">
+          Disclaimer : Money Expo Egypt 2024 is an educational event designed to
+          provide information on financial products and services. The views and
+          opinions expressed by speakers, sponsors, exhibitors, and attendees
+          are their own and do not necessarily reflect the views and opinions of
+          the Money Expo Egypt 2024 organizers. The information provided at this
+          event is for educational purposes only and should not be considered
+          financial, legal, or investment advice. Attendees should always
+          consult with a financial advisor before making any financial
+          decisions. The organizers of Money Expo Qatar 2024 will not be held
+          responsible for any financial loss or damage that may result from the
+          use of information provided at this event.
+        </p>
+      </div>
+    </footer>
+
+    <!-- <div class="twelve-card">
+      <img
+        class="profile-icon"
+        src="https://theforexexpo.com/wp-content/uploads/2024/04/card-4.jpg"
+        alt=""
+      />
+
+      <p class="tw-name">Imane</p>
+      <a href="mailto:syed@hqmena.com">Email:syed@hqmena.com</a>
+      <p class="w-t">
+        <img
+          src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/whatsapp.svg"
+          alt=""
+        />
+        <img
+          src="https://theforexexpo.com/wp-content/themes/Crypto%20Expo/images/telegram.svg"
+          alt=""
+        />
+      </p>
+    </div> -->
+    <!-- <div>
+      <div class="mysticker">
+        <div class="sticker-inner">
+          <div class="st-front st-face">
+            <img
+              src="https://theforexexpo.com/wp-content/uploads/2024/06/Entrep.jpg"
+              alt=""
+            />
+          </div>
+          <div class="st-back st-face">
+            <h4>Capex.com</h4>
+            <p>Our Company</p>
+            <button>View Profile</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- fade animation -->
+    <script src="./js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- slick -->
+    <script src="./slick-combine/jquery-3.7.1.min.js"></script>
+    <script src="/slick-combine/slick.js"></script>
+    <script src="./slick-combine/slick.min.js"></script>
+
+    <script>
+      $(".flipping-cards").slick({
+        dots: true,
+        infinite: false,
+        rows: 2,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        appendDots: ".Partner-dots",
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+    <script>
+      $(".speakers-card").slick({
+        dots: true,
+        infinite: false,
+        rows: 2,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        appendDots: ".Speaker-dots",
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      let navToggle = document.querySelector(".nav-toggle");
+      let navLine1 = document.querySelector(".n-div1");
+      let navLine2 = document.querySelector(".n-div2");
+      let navLine3 = document.querySelector(".n-div3");
+      let navLine4 = document.querySelector(".n-div4");
+      let mobileNav = document.querySelector(".mobile-nav");
+      let navOvrl = document.querySelector(".nav-ovrl");
+
+      navToggle.addEventListener("click", () => {
+        navLine1.classList.toggle("active1");
+        navLine2.classList.toggle("active2");
+        navLine3.classList.toggle("active3");
+        navLine4.classList.toggle("active4");
+        mobileNav.classList.toggle("nav-active");
+        navOvrl.classList.toggle("nav-ovrl-active");
+      });
+    </script>
+
+    <script>
+      window.onscroll = function () {
+        var reminder = document.getElementById("reminder");
+        var header = document.getElementById("header");
+        let scroll = document.getElementById("scroll");
+        if (window.scrollY > 50) {
+          // Add background color when scrolled
+          header.classList.add("scrolled");
+          header.classList.remove("transparent");
+
+          // reminder.classList.remove("reminder-normal");
+          // reminder.classList.add("re-scrolled")
+
+          scroll.classList.add("scroll2");
+          scroll.classList.remove("scroll1");
+        } else {
+          // Remove background color when at the top
+          header.classList.remove("scrolled");
+          header.classList.add("transparent");
+
+          // reminder.classList.add("reminder-normal");
+          // reminder.classList.remove("re-scrolled")
+
+          scroll.classList.add("scroll1");
+          scroll.classList.remove("scroll2");
+        }
+      };
+      // Absolute scroll
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <!-- timer -->
+    <script>
+      let endDateElm = "31 December 2024 12:00:00";
+      let countDownItem = Array.from(document.querySelectorAll(".terminal"));
+
+      function countDown() {
+        let endDate = new Date(endDateElm);
+        let newDate = new Date();
+        let dateDiff = (endDate - newDate) / 1000;
+        if (dateDiff > 0) {
+          let day = Math.floor(dateDiff / 3600 / 24);
+          let hour = Math.floor(dateDiff / 3600) % 24;
+          let min = Math.floor(dateDiff / 60) % 60;
+          let sec = Math.floor(dateDiff % 60);
+          countDownItem[0].textContent = day;
+          countDownItem[1].textContent = hour;
+          countDownItem[2].textContent = min;
+          countDownItem[3].textContent = sec;
+        } else {
+          clearInterval(stop);
+        }
+      }
+      let stop = setInterval(() => {
+        countDown();
+      }, 1000);
+    </script>
+
+    <!-- Numbers loader -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const counters = document.querySelectorAll(".counting");
+        let observer = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                observer.unobserve(entry.target); // Stop observing once the animation starts
+              }
+            });
+          },
+          { threshold: 0.2 }
+        ); // Adjust threshold if needed
+
+        counters.forEach((counter) => {
+          observer.observe(counter);
+        });
+
+        function animateCounter(counter) {
+          const target = +counter.getAttribute("data-target");
+          const speed = 300; // Adjust the speed of the counter animation
+          const increment = target / speed;
+
+          function updateCounter() {
+            const value = +counter.innerText;
+            if (value < target) {
+              counter.innerText = Math.ceil(value + increment);
+              requestAnimationFrame(updateCounter);
+            } else {
+              counter.innerText = target; // Ensure it ends exactly at the target value
+            }
+          }
+
+          updateCounter();
+        }
+      });
+    </script>
+  </body>
+</html>
+
+<!-- <div>
+  <div>
+    <div class="speaker-crd">
+      <div class="spkr-img">
+        <img
+          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Roberto-Ambrosio.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h3>Roberto d'Ambrosio</h3>
+        <p>CEO</p>
+        <p>Axiory</p>
+      </div>
+    </div>
+    <div class="speaker-crd">
+      <div class="spkr-img">
+        <img
+          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h3>Anmol Goel</h3>
+        <p>CEO & Managing Partner</p>
+        <p>Gacsym Vendors</p>
+      </div>
+    </div>
+    <div class="speaker-crd">
+      <div class="spkr-img">
+        <img
+          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h3>Anmol Goel</h3>
+        <p>CEO & Managing Partner</p>
+        <p>Gacsym Vendors</p>
+      </div>
+    </div>
+    <div class="speaker-crd">
+      <div class="spkr-img">
+        <img
+          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h3>Anmol Goel</h3>
+        <p>CEO & Managing Partner</p>
+        <p>Gacsym Vendors</p>
+      </div>
+    </div>
+    <div class="speaker-crd">
+      <div class="spkr-img">
+        <img
+          src="https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Speakers/Anmol-Goel.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h3>Anmol Goel</h3>
+        <p>CEO & Managing Partner</p>
+        <p>Gacsym Vendors</p>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center my-3">
+    <button class="Header-btn2">View All Speakers</button>
+  </div>
+</div> -->

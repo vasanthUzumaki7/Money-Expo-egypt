@@ -1,0 +1,132 @@
+.chart-item{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.chart-item .chart-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.chart-img img{
+    width: 70px;
+    height: 70px;
+}
+.chart-flag{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: start;
+}
+.flag-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-right: 35px;
+}
+.flag-div img{
+    width: 70px;
+    height: 40px;
+}
+.progress-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.progress-div p{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.content-4{
+    background: linear-gradient(to bottom,black, rgb(0, 48, 27));
+}
+.map{
+    width: 100%;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+/* content-5 */
+.cont5-right img{
+    width: 100%;
+    height: 100%;
+}
+.about-list li{
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+}
+.about-list li::before{
+    content: "";
+    position: absolute;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    top: 9px;
+    left: 0;
+}
+.about-list{
+    padding: 0;
+    color: white;
+}
+.content-5{
+    background: linear-gradient(to bottom,rgb(0, 48, 27),black);
+}
+/* content-6 */
+.f-crd-img{
+    height: 65px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.f-crd-img img{
+    width: 100%;
+    filter: drop-shadow(0 0 2px white);
+}
+.f-crd-layer{
+    border-radius:32px;
+    background-color:#000000b8;
+    padding: 25px;
+    height: 100%;
+}
+.f-crds{
+    border-radius:40px;
+    padding: 18px;
+    height: 100%;
+}
+.f-crd-layer p{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.f-crd-layer h3{
+    color: white;
+    font-family: "Avenir";
+    font-size: 20px;
+    /* text-shadow: 0 0 2px white; */
+    filter: drop-shadow(0 0 1px white);
+}
+.content-6{
+    background-color: black;
+    padding: 50px 0px;
+    /* text-shadow: 0 0 2px white; */
+    filter: drop-shadow(0 0 1px white);
+}
+
+@media screen and (max-width:1200px){
+    .chart-item{
+        justify-content: center;
+    }
+    .chart-flag{
+        justify-content: center;
+    }
+    .flag-div{
+        margin: 0 10px;
+    }
+}

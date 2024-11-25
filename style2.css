@@ -1,0 +1,186 @@
+.content-2{
+    padding: 100px 0px;
+    background-color: black;
+}
+.con2-top h1{
+    color: rgb(158, 112, 5);
+}
+.c2-card-left{
+    width: 140px;
+    height: 140px;
+    border-radius: 32px 32px 0 32px;
+    position: relative;
+    box-sizing: border-box;
+}
+.c2-card-left .left-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 25px;
+    
+}
+.whowe-img{
+    width: 25px;
+    position: absolute;
+    bottom: -43px;
+    right: 14px;
+}
+.whowe-img img{
+    width: 100%;
+}
+.c2-card{
+    display: flex;
+    margin: 20px 0px;
+}
+.c2-card-right{
+    min-height: 282px;
+    border: 5px solid black;
+    border-radius: 32px ;
+    padding: 20px;
+    min-width: 227px;
+    box-sizing: border-box !important;
+    background-color: white;
+}
+.c2-card-right h1{
+    font-family: "Avenir";
+    font-size: 23px;
+    text-transform: none;
+    text-align: start;
+    font-weight: 700;
+}
+
+/* content-3 */
+.con3-cont h1{
+    color: #292929;
+    font-size: 2.32vw;
+    font-weight: 700;
+    max-width: 70%;
+    font-family: "Avenir";
+    text-transform: none;
+    text-align: start;
+}
+.con3-cont{
+    padding: 70px 20px 50px 50px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.con3-cont-r{
+    padding: 70px 100px 50px 50px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    background:url('https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/WhyAbout-Section/Whyabout-RightBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    
+}
+.con3-cont-r p{
+    margin-left: 300px;
+}
+.ovrl-img{
+    position: absolute;
+    width: 22vw;
+    height: auto;
+    top: 10%;
+    left: 22%;
+}
+.ovrl-img img{
+width: 100%;
+height: 100%;
+}
+.cont-3{
+    position: relative;
+    
+}
+@media screen and (max-width:1440px){
+    .con3-cont-r p{
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .c2-card-right{
+        min-height: 230px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .con3-cont-r p{
+        margin-left: 0px;
+    }
+    .con3-cont{
+        height:180px;
+        padding: 50px 20px 220px 50px;
+        border-radius: 30px;
+    }
+    .con3-cont-r{
+        height: auto;
+        padding: 220px 50px 50px 50px;
+    }
+    .con3-cont h1{
+        font-size: 35px;
+        max-width: 50%;
+    }
+
+    .ovrl-img{
+        position: absolute;
+        width: 35vw;
+        height: auto;
+        top: 325px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+   
+}
+@media screen and (max-width:576px) {
+    .c2-card-left{
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+    .c2-card-left .left-img{
+        border-radius: 10px;
+    }
+    .c2-card-right{
+        border-radius: 10px;
+    }
+    .c2-card{
+        flex-direction: column;
+    }
+    .whowe-img{
+        display: none;
+    }
+    .con3-cont h1{
+        font-size: 25px;
+        max-width: 100%;
+    }
+    .con3-cont{
+        height:180px;
+        padding: 20px 20px 220px 20px;
+        border-radius: 30px;
+    }
+    .con3-cont-r{
+        height: auto;
+        padding: 130px 20px 20px 20px;
+    }
+    .ovrl-img{
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 270px;
+        left: 50%;
+        border-radius: 30px;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    
+}

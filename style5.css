@@ -1,0 +1,152 @@
+.content-9{
+    padding: 50px 0px;
+}
+
+.sponcer-line{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+.sponcer-title h1{
+    color: rgba(80, 80, 80, 1);
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 12px 0px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family:"Montserrat",sans-serif;
+   margin: 0px 25px;
+}
+.sponcer-title{
+    display: flex;
+    align-items: center;
+}
+
+/* content-11 */
+.cont-11 h2{
+    font-family: "Avenir";
+    color: white;
+    text-align: center;
+}
+.content-11{
+        width: 100%;
+        height: 75vh;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.5) url(https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Event-Venue/Event-VenueBg.jpg) no-repeat center / cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+}
+.cont-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* cantent-12 */
+.twelve-card{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(73 1 10) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width:240px;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    font-weight: normal;
+}
+.twelve-card a{
+    text-decoration: none;
+    position: relative;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+.twelve-card a::before{
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.3s;
+}
+.twelve-card a:hover:before{
+    width: 100%;
+    transition: 0.3s;
+}
+.twelve-card .profile-icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.twelve-card .w-t{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.twelve-card .w-t img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+.twelve-card .tw-name{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.twelve-cards-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0px;
+}
+.content-12{
+    padding: 50px 0px;
+}
+
+.section-img{
+    width: 100%;
+}
+.section-img img{
+    width: 100%;
+}
+
+@media screen and (max-width:552px){
+    .twelve-card {
+        width: 240px;
+        height: 280px;
+        gap: 15px;
+        margin: 10px 10px;
+    }
+    .twelve-card .w-t{
+       margin: 0;
+    }
+    .twelve-card .profile-icon{
+        margin: 0;
+    }
+    .twelve-card .tw-name{
+        margin: 0;
+    }
+    .twelve-card a{
+        margin: 0;
+    }
+}

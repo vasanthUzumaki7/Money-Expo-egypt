@@ -1,0 +1,186 @@
+
+/* reminder */
+.rem-div1 p span{
+color: rgb(158, 112, 5);
+font-family: "Avenir";
+}
+.rem-div1 p{
+    margin: 0;
+    font-size: 16px;
+}
+.rem-div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.reminder-div{
+    background-color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+.rem-div2 li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.rem-div2 li span{
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.rem-div1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    
+}
+.rem-div2{
+    margin: 0;
+}
+/* content-1 */
+
+.content-1{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://hqmena.com/MoneyExpo-Egypt/ME-Egypt2024/assets/image/Banners/Banner-Bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.507);
+}
+.banner-contnt h4{
+font-size: 20px;
+font-family: "Montserrat",sans-serif;
+color: white;
+text-transform: uppercase;
+letter-spacing: 3px;
+line-height: 31px;
+}
+.banner-contnt h3{
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    color: white;
+    }
+.banner-contnt h1{
+    font-size: 45px;
+font-family: "Montserrat",sans-serif;
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+text-align: start;
+}
+.banner-contnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-img{
+    width: 50%;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.banner-img img{
+    width: 100%;
+}
+.content-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 600px;
+    position: relative;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.507);
+}
+
+/* counter */
+.counter .count h1{
+    position: relative;
+    font-family: "Avenir";
+    font-size: 33px;
+    margin: 0;
+}
+.count p{
+    font-family: "Avenir";
+    font-size: 18px;
+    margin: 0;
+}
+.counter .count h1::after{
+    content: "+";
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: -16px;
+   
+}
+.counter .count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:992px){
+    .reminder-div{
+        display: none;
+    }
+    .banner-img{
+        position: relative !important;
+        bottom: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content-cont{
+        height: auto;
+    }
+
+    .content-1{
+        padding: 150px 0px 0px 0px;
+    }
+    .banner-contnt{
+        align-items: center;
+    }
+    .banner-contnt h1{
+        text-align: center;
+    }
+    .banner-contnt h3,.banner-contnt h4{
+        text-align: center;
+    }
+
+    .count p{
+        font-size: 18px;
+    }
+    .counter .count h1{
+        font-size: 20px;
+    }
+    .counter .count h1::after{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:576px) {
+    .banner-contnt h1{
+        font-size: 27px;
+    }
+    .banner-contnt h3,.banner-contnt h4{
+        font-size: 16px;
+    }
+    .count p{
+        font-size: 13px;
+    }
+  
+}
